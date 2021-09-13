@@ -1,0 +1,380 @@
+
+.grid-container {
+    display: grid;
+    width: 80%;  /*70% */
+    margin: auto;
+    background-color: white;
+  }
+
+  body {
+      background-color: #F0F8FF;
+      text-align: center;
+  }
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #9b866b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+  }
+  
+  li {
+    float: left;
+    margin-left: 80px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    text-decoration: none;
+    
+    
+  }
+
+  a:hover {
+      color:black;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: -30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+  }
+  
+  .quote {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1px;
+    margin-bottom: -20px;
+  }
+  #mainImage {
+   
+        max-width: 100%;    
+        
+      }
+
+
+/* table {
+    margin-left: auto; 
+    margin-right: auto; 
+}  */
+  
+h2 {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    background-color: #c9a474;
+
+}
+
+h2:hover{
+    color: black;
+}
+
+.bild2 {
+    width: 200px;  
+  }
+  
+
+/*Fuengirola*/
+#fuengirola-mainImage{
+  width: 40%;
+  margin: auto;
+  height: 300px;
+
+}  
+#fuengirola-main{
+  width: 100%;
+  margin: auto;
+}
+#fuengirola-ingress{
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+}
+div.gallery {
+  margin-left: 2%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  float: left;
+  width: 30%;
+}
+
+div.gallery:hover {
+  border: 2px solid rgb(83, 29, 29);
+}
+
+div.gallery img {
+  width: 100%;
+  height:250px;
+}
+
+.caption {
+  padding: 15px;
+  text-align: center;
+  color: rgb(160, 29, 29);
+}
+/*Slut - Fuengirola*/  
+
+/*elinors*/
+.container-pictures {
+  display: flex;
+  justify-content: center;
+}
+.container-pictures .picture {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.text {
+  padding: 10px;
+}
+.text p {
+  text-align: left;
+}
+
+.skane-image-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skane-image-container .skane-image img {
+  width: 500px;
+}
+.skane-header-image {
+  width: 100%;
+}
+.image-captions {
+}
+/*.bild2 {
+  width: 200px;
+}
+*/
+a:link {
+  text-decoration: none;
+}
+.footer-container {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  background-color: #9b866b;
+}
+
+.footer-container ul {
+  background-color: #9b866b;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-container ul li {
+  font-size: 15px;
+  margin: 0;
+  text-align: left;
+}
+.footer-container ul li a {
+  font-size: 15px;
+  margin: 0;
+  text-align: left;
+  padding: 5px;
+}
+
+.footer-item {
+  background-color: #9b866b;
+  padding: 10px;
+  margin: 10px;
+  width: 33%;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-newsletter button {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  border: none;
+  margin-left: 5px;
+}
+.footer-newsletter input {
+  height: 20px;
+}
+
+
+  /*elinors*/
+.container-pictures {
+  display: flex;
+  justify-content: center;
+}
+.container-pictures .picture {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+
+/*.bild2 {
+  width: 200px;
+}
+*/
+a:link {
+  text-decoration: none;
+}
+.footer-container {
+  display: flex;
+  width: 100%;  /*70% */
+  margin: auto;
+  justify-content: space-evenly;
+  background-color: #9b866b;
+}
+
+
+.footer-container ul {
+  background-color: #9b866b;
+}
+
+.footer-container ul li {
+  font-size: 15px;
+}
+
+
+.footer-item {
+  background-color: #9b866b;
+  padding: 10px;
+  margin: 10px;
+}
+.contact-item {
+  flex-direction: column;
+}
+
+
+ /*thomas start*/
+
+ 
+.destinationText{
+  float: left;
+  text-align: left;
+}
+
+.billerbeck-h3{
+  float: left;
+  text-align: left;
+  font-size: 1em;
+  margin: 0.5em 0 0 0;
+}
+
+.billerbeck-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.billerbeck-container > * {
+  padding: 10px;
+
+}
+
+.billerbeck-image-container{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.billerbeck-image{
+
+}
+
+#billerbeck-head{
+  margin: 20px;
+}
+
+#billerbeck-header-image {
+  height: 300px;
+  width: 100%; 
+  display: flex; 
+  justify-content: center;
+      
+    }
+#billerbeck-beckebans {
+  max-width: 25%;
+  height: auto;
+  margin: auto;     
+    }
+
+#billerbeck-kolvenburg {
+  max-width: 25%;
+  height: auto; 
+  margin: auto;     
+    }
+
+ /*thomas end*/
+
+ /*SANDRAS KOD - HEMSIDA*/
+ #fig {
+  width: 100%;
+  height: 400px;
+}
+
+.fig-flex-container{
+ 
+  display: flex;
+  justify-content: center;
+}
+
+.fig-flex-container > div {
+  background-color: #92cfdf;
+  text-align: center;
+  width: 70% ;
+  
+}
+
+.fig-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#fig-img {
+  height:300px;
+  width:100%;
+}
+
+ /*SANDRAS KOD - HEMSIDA*/
+
+ /* FILIPS KOD */
+
+ #queenstownone_crop {
+  max-width: 100%;    
+}
+
+#queenstownwinter {
+  max-width: 50%;   
+}
+
+#queenstown-head {
+  margin: 20px
+}
+
+#queenstown {
+  margin: 20px
+}
+
+/*FILIPS KOD */

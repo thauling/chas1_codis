@@ -1,0 +1,373 @@
+
+.grid-container {
+    display: grid;
+    width: 80%;  
+    margin: auto;
+    background-color: white;
+  }
+
+  body {
+      background-color: #F0F8FF;
+      text-align: center;
+  }
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #9b866b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+  }
+  
+  li {
+    float: left;
+    margin-left: 80px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    text-decoration: none;
+    
+    
+  }
+
+  a:hover {
+      color:black;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: -30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+  }
+  
+  .quote {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1px;
+    margin-bottom: -20px;
+  }
+  #mainImage {
+   
+        max-width: 100%;    
+        
+      }
+
+  
+h2 {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    background-color: #c9a474;
+
+}
+
+.bild2 {
+    width: 200px;  
+  }
+  
+
+/*Fuengirola*/
+#fuengirola-mainImage{
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}  
+#fuengirola-main{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#fuengirola-ingress{
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+}
+div.gallery {
+  margin-left: 2%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  float: left;
+  width: 30%;
+}
+
+div.gallery:hover {
+  border: 2px solid rgb(83, 29, 29);
+}
+
+div.gallery img {
+  width: 100%;
+  height:200px;
+ }
+
+.caption {
+  padding: 20px;
+  text-align: center;
+  color: rgb(160, 29, 29);
+}
+/*Slut - Fuengirola*/  
+
+
+/*elinors*/
+
+.container-pictures {
+  display: flex;
+  justify-content: center;
+}
+.container-pictures .picture {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.text {
+  padding: 10px;
+}
+.text p {
+  text-align: left;
+}
+
+.skane-image-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skane-image-container .skane-image img {
+  width: 500px;
+}
+.skane-header-image {
+  width: 100%;
+}
+.image-captions {
+}
+
+a:link {
+  text-decoration: none;
+}
+.footer-container {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  background-color: #9b866b;
+}
+
+.footer-container ul {
+  background-color: #9b866b;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-container ul li {
+  font-size: 15px;
+  margin: 0;
+  text-align: left;
+}
+.footer-container ul li a {
+  font-size: 15px;
+  margin: 0;
+  text-align: left;
+  padding: 5px;
+}
+
+.footer-item {
+  background-color: #9b866b;
+  padding: 10px;
+  margin: 10px;
+  width: 33%;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-newsletter button {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  border: none;
+  margin-left: 5px;
+}
+.footer-newsletter input {
+  height: 20px;
+}
+
+
+/* elinor 2nd */
+
+ /*elinors*/
+
+ 
+ .container-pictures {
+  display: flex;
+  justify-content: center;
+}
+.container-pictures .picture {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+.footer-container {
+  display: flex;
+  width: 100%;  /*70% */
+  margin: auto;
+  justify-content: space-evenly;
+  background-color: #9b866b;
+}
+
+
+.footer-container ul {
+  background-color: #9b866b;
+}
+
+.footer-container ul li {
+  font-size: 15px;
+}
+
+
+.footer-item {
+  background-color: #9b866b;
+  padding: 10px;
+  margin: 10px;
+}
+.contact-item {
+  flex-direction: column;
+}
+
+
+ 
+
+/* elinor slut */
+
+ /*thomas start*/
+
+ .destinationText{
+  float: left;
+  text-align: center;
+}
+
+ #billerbeck-head{
+  margin: 20px;
+}
+
+ 
+#billerbeck-header-image {
+  height: 300px;
+  width: 100%; 
+}
+
+.billerbeck-flex-container{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.billerbeck-flex-container > div {
+  background-color: #DDC2B9;
+  text-align: left;
+  width: 100% ;
+  
+}
+
+.billerbeck-h3{
+  float: center;
+  text-align: center;
+  font-size: 1em;
+  margin: 0.5em 0 0 0;
+}
+
+.billerbeck-caption{
+  margin: 0 0 1em 0;
+  font-weight: bold;
+}
+
+#billerbeck-pictures{
+  align-items: center;
+}
+
+#kolvenburg-caption{
+  margin-left: 5%;
+}
+
+#billerbeck-kolvenburg {
+  width: 80%;
+  margin-left: 5%;     
+    }
+
+#billerbeck-beckebans {
+  width: 90%;
+  margin: auto;     
+        }   
+ /*thomas end*/
+
+ /*SANDRAS KOD - HEMSIDA*/
+ #fig {
+  width: 100%;
+  height: 400px;
+}
+
+.fig-flex-container{
+ 
+  display: flex;
+  justify-content: center;
+}
+
+.fig-flex-container > div {
+  background-color: #c9a474;
+  text-align: center;
+  width: 80% ;
+  
+}
+
+.fig-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#fig-img {
+  height:300px;
+  width:100%;
+}
+
+ /*SANDRAS KOD - HEMSIDA*/
+
+ /* FILIPS KOD */
+
+ #queenstownone_crop {
+  justify-content: center;  
+  width: 100%;
+}
+
+#queenstownwinter {
+  justify-content: center;
+}
+
+#queenstown-head {
+  margin: 20px
+}
+
+
+/*FILIPS KOD */
